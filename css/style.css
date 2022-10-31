@@ -61,3 +61,35 @@ footer > .wrapper{
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* MEdia Query */
+@media(max-width:1200px){
+    .wrapper{
+        width: 100%;
+        margin: 0 auto;
+        align-items: flex-start;
+    }
+}
+@media (max-width:576px) {
+    main > .wrapper{
+        flex-direction: column;
+    }
+    .wrapper{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+    .main-cat, .main-text{
+        width: 100%;
+        font-size: 24px;
+        
+    }
+    footer > .wrapper{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    main p{
+        margin-bottom: 25px;
+        line-height: 1.5;
+    }
+}
